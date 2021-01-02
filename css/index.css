@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "ali-regular";
+    font-display: swap;
+    src: url('../font/alifont/regular/webfont.eot'); /* IE9 */
+    src: url('../font/alifont/regular/webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/alifont/regular/webfont.woff2') format('woff2'),
+    url('../font/alifont/regular/webfont.woff') format('woff'), /* chrome、firefox */
+    url('../font/alifont/regular/webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../font/alifont/regular/webfont.svg#webfont') format('svg'); /* iOS 4.1- */
+}
+
+@media screen {
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "ali-regular";
+    letter-spacing: 0.2em;
+}
+
+body{
+    background-color: black;
+}
+
+.yinjang{
+    vertical-align: center;
+    padding: 10px 20px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.yinjang a{
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow:1px 1px 0px #FFFFFF, -1px -1px 0px #FFFFFF, 2px 2px 0px #FFFFFF, -2px -2px 0px #FFFFFF, 3px 3px 0px #FFFFFF, -3px -3px 0px #FFFFFF;
+    text-align: center;
+}
+
+.mid-circle a{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    padding: 190px 165px;
+    border: 1px solid white;
+    border-radius: 200px;
+}
+
+.mid-circle a:hover{
+    transform: scale(.5);
+}
+
+.mid-circle a:visited{
+    color: black;
+}
+
+.mid-circle a:active{
+    color:black;
+}
+
+#mid-circle-circle{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 200px;
+}
